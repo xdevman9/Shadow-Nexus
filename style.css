@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Oswald:wght@500&display=swap');
+
+body {
+  background-color: #1e1e1e;
+  font-family: Lexend;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-grow: 3;
+  background-color: #121010;
+  border-radius: 8px;
+  height: 70px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  padding: 14px 14px;
+  transition-duration: 0.4s;
+  font-size:25px;
+  margin-top: 5px;
+}
+
+.navbar a:hover {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 150px;
+  font-size: 60px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.search-container input {
+  border-radius: 7px;
+  width: 100%;
+  font-family: Lexend;
+  height: 50px;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer button {
+  border-radius: 8px;
+  font-family: Lexend;
+  background-color: #2274e0;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  padding: 15px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+.footer button:hover {
+  cursor: pointer;
+  background-color:#165dba;
+}
