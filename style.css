@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Oswald:wght@500&display=swap');
 
 body {
-  background-color: #1e1e1e;
+  background-color: #567;
   font-family: Lexend;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   flex-grow: 3;
-  background-color: #121010;
+  background-color: grey;
   border-radius: 8px;
   height: 70px;
 }
@@ -51,7 +51,7 @@ body {
 .search-container {
   display: flex;
   flex-direction: row;
-  max-width: 500px;
+  max-width: 350px;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@ body {
 .footer button {
   border-radius: 8px;
   font-family: Lexend;
-  background-color: #2274e0;
+  background-color: 2274e0;
   border: none;
   color: white;
   margin-right: 10px;
