@@ -18,9 +18,9 @@ body {
   right: 0;
   left: 0;
   z-index: 999;
-  text-align: center;
+  text-align: right;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-grow: 3;
   background-color: grey;
   border-radius: 30px;
@@ -30,13 +30,11 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
-  text-align: center;
+  text-align: right;
   float: left;
   padding: 14px 14px;
   font-size:25px;
   margin-top: 5px;
-  margin-right: 160px;
-  margin-left: auto;
 }
 
 .navbar a:hover {
@@ -44,7 +42,7 @@ body {
   border-radius: 8px;
 }
 
-.title {
+#header {
   margin-top: 150px;
   font-size: 60px;
 }
